@@ -1,11 +1,17 @@
-import './App.css'
+import DailyReportTable from "./components/DailyReportTable";
+import Header from "./components/Header";
 
 function App() {
   return (
-    <div>
-      <h1>Removed counter app</h1>
-    </div>
-  )
+    <>
+      <Header />
+
+      {/* Body */}
+      <div className="p-4">
+        <DailyReportTable />
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
