@@ -135,6 +135,8 @@ function DailyReportTable() {
         <span>|</span>
         <span>{outstandingAmountTotal}</span>
       </div>
-      
-      
+    </div>
+  );
+}
+
 export default DailyReportTable;

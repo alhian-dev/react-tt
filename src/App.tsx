@@ -1,5 +1,6 @@
 import DailyReportTable from "./components/DailyReportTable";
 import Header from "./components/Header";
+import Accordion from "./components/Accordion";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       {/* Body */}
       <div className="p-4">
         <DailyReportTable />
+        <Accordion />
       </div>
     </>
   );
